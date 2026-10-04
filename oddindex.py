@@ -6,5 +6,5 @@ for i in range(0,size):
     ls.append(element)
 print("The value of Odd index elements in the list are:")
 for i in range(0,size):
-     if(i%2!=0):
+     if(i %2!=0):
         print(ls[i])
