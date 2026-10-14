@@ -1,0 +1,5 @@
+numbers=input("Enter the elements of tuple:")
+t=tuple(map(int,numbers.split()))
+print("Tuplt:",t)
+print("Largest element in tuple:",max(t))
+print("Smallest element in tuple:",min(t))
